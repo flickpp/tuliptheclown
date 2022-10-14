@@ -12,6 +12,16 @@ h3 {
     font-size: 0.9rem;
 }
 
+h4 {
+    font-size: 1.5rem;
+    padding: 0.8rem 1rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 #banner {
     display: flex;
     width: 100%;
@@ -85,9 +95,8 @@ h3 {
 }
 
 #faq h4 {
-    font-size: 1.5rem;
     color: #3f2d7b;
-    padding: 0.8rem 1rem;
+
 }
 
 #faq p {
@@ -109,3 +118,81 @@ h3 {
     font-size: 1.2rem;
 }
 
+/* Characters and Games */
+
+#character-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    background-color: #ffcce5;
+    min-height: 75vh;
+}
+
+.stacked {
+    display: grid;
+}
+
+.stacked > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.character-card {
+/*    border: 3px solid hotpink; */
+    aspect-ratio: 1 / 1.5;
+}
+
+.ccard__content {
+    background: #ffcce5;
+    align-self: end;
+    margin: .5rem;
+    padding: .5rem;
+/*    box-shadow: 0.25rem 1rem rgb(0 0 0 / .1); */
+    margin: .5rem .5rem 2rem;
+    outline: solid 2px #e75480;
+}
+
+.ccard__name {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    color: #e75480;
+}
+
+.ccard__img {
+    width: 100%;
+    aspect-ration: 1 / 1;
+    object-fit: cover;
+}
+
+.ccard__description {
+    font-size: 1.7rem;
+}
+
+.game-title {
+    display: flex;
+}
+
+#game-circus {
+    background-color: #C5B4E3;
+}
+
+#game-frozen {
+    background-color: #EA8;
+}
+
+#game-superheros {
+    background-color: #00B0BD;
+}
+
+.cg-desc {
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.cg-desc > p {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.cg-desc > h4 {
+    margin: 1rem;
+}
