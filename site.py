@@ -22,6 +22,7 @@ PRICES = Path("templates/prices.html")
 CHARS_AND_GAMES = Path("templates/characters_and_games.html")
 PICS_AND_TESTI = Path("templates/partypics_and_testimonials.html")
 CONTACT = Path("templates/contact.html")
+FAQ = Path("templates/faq.html")
 
 # Output
 EN = Path("./en")
@@ -73,14 +74,13 @@ def main():
     # CSS
     data['css'] = make_css()
 
-    print(data['images']['characters'].keys())
     for char in data['strings']['characters']:
         char['image'] = data['images']['characters'][char['image']]
 
     if not EN.is_dir():
         mkdir(EN)
 
-    for page in (INDEX, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT):
+    for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT):
         content = Template(filename=str(page)).render(**data)
         with open(EN / page.name, "w") as file:
             file.write(HEADER.render(content=content, **data))
