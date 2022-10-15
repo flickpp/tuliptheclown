@@ -53,11 +53,25 @@ def make_images(data):
         js.dump(images, file)
 
 
+def make_css():
+    with open("style.css", 'rb') as file:
+        css = file.read()
+        digest = sha256(css).digest().hex()
+
+    name = "style_" + digest[:12] + '.css'
+
+    open(name, 'wb').write(css)
+    return name
+
+
 def main():
     data = {}
     data['strings'] = js.load(open("strings.json"))
     data['images'] = {}
     make_images(data['images'])
+
+    # CSS
+    data['css'] = make_css()
 
     print(data['images']['characters'].keys())
     for char in data['strings']['characters']:
