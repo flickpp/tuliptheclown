@@ -1,0 +1,52 @@
+{
+    "characters": [
+	{
+	    "image": "clown.jpg",
+	    "nameEn": "Clown"
+	},
+	{
+	    "image": "fairy_butterfly.jpeg",
+	    "nameEn": "Fairy/Butterfly"
+	},
+	{
+	    "image": "elsa.png",
+	    "nameEn": "Elsa"
+	},
+	{
+	    "image": "unicorn.jpeg",
+	    "nameEn": "Unicorn"
+	},
+	{
+	    "image": "batgirl.jpeg",
+	    "nameEn": "Batgirl"
+	},
+	{
+	    "image": "pirate.jpeg",
+	    "nameEn": "Pirate"
+	},
+	{
+	    "image": "peppapig.jpeg",
+	    "nameEn": "Peppa Pig"
+	},
+	{
+	    "image": "snowwhite.jpg",
+	    "nameEn": "Snow White"
+	},
+	{
+	    "image": "alice_wonderland.jpg",
+	    "nameEn": "Alice in Wonderland"
+	},
+	{
+	    "image": "troll.jpeg",
+	    "nameEn": "Troll"
+	},
+	{
+	    "image": "masha.jpeg",
+	    "nameEn": "Masha"
+	},
+	{
+	    "image": "chesirecat.jpeg",
+	    "nameEn": "Chesire Cat"
+	}
+    ]
+}
