@@ -1,54 +1,27 @@
-    <div id="prices">
-      <div id="prices-table">
-        <div class="price-column price-column-odd">
-          <p class="price-time">1 hour</p>
-	  <p class="price-cost">£130</p>
-        </div>
-        <div class="price-column price-column-even">
-	  <p class="price-time">1.5 hours</p>
-	  <p class="price-cost">£170</p>
-        </div>
-        <div class="price-column price-column-odd">
-	  <p class="price-time">2 hours</p>
-	  <p class="price-cost">£210</p>
-        </div>
-        <div class="price-column price-column-even">
-	  <p class="price-time">2.5 hours</p>
-	  <p class="price-cost">£250</p>
-        </div>
-        <div class="price-column price-column-odd">
-	  <p class="price-time">3 hours</p>
-	  <p class="price-cost">£290</p>
-        </div>
-        <div class="price-column price-column-even">
-	  <p class="price-time">3.5 hours</p>
-	  <p class="price-cost">£330</p>
-        </div>
-        <div class="price-column price-column-odd">
-	  <p class="price-time">4 hours</p>
-	  <p class="price-cost">£370</p>
-        </div>
-      </div>
-      <div id="price-mod">
-	<p>£10 off for returning customers and weekday customers</p>
-	<h4>Travel cost beyond zone 4</h4>
-        <div id="price-travel-times">
-          <div class="price-column price-column-even">
-	    <p class="price_time">Zone 5-6</p>
-	    <p class="price-cost">£5</p>
-          </div>
-	  <div class="price-column price-column-odd">
-	    <p class="price-time">Zone 7-8</p>
-	    <p class="price-cost">£10</p>
-          </div>
-	  <div class="price-column price-column-even">
-	    <p class="price-time">Zone 9</p>
-	    <p class="price-cost">£15</p>
-          </div>	  
-        </div>
-	<p>Travel cost outside of London will depend on the ticket cost and the time it takes to get there.</p>
-      </div>
+<div id="prices">
+  <div id="prices-table">
+    % for cost in strings['prices']['costs']:
+    <div class="price-column ${loop.cycle('price-column-even', 'price-column-odd')}">
+      <p class="price-time">${cost[0]}</p>
+      <p class="price-cost">${cost[1]}</p>
     </div>
-    <div class="footer">
-      <h3> Tulip the Clown - Prices</h3>
+    % endfor
+  </div>
+  <div id="price-mod">
+    <p>${strings['prices']['specialOffer']}</p>
+    <h4>${strings['prices']['travelCost']}</h4>
+    <div id="price-travel-times">
+      % for cost in strings['prices']['travelCosts']:
+      <div class="price-column ${loop.cycle('price-column-even', 'price-column-odd')}">
+        <p class="price-time">${cost[0]}</p>
+        <p class="price-cost">${cost[1]}</p>
+      </div>
+      % endfor
     </div>
+    <p>${strings['prices']['outsideLondon']}</p>
+  </div>
+</div>
+  
+<div class="footer">
+  <h3>${strings['site']['name']} - ${strings['site']['pagePrices']}</h3>
+</div>

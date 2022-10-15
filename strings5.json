@@ -1,0 +1,288 @@
+{
+  "site": {
+    "nameEn": "Tulip the Clown",
+    "bannerEn": "Professional, Experienced, Fun!",
+    "tagLineEn": "Childrens Entertainer",
+    "pageCharsEn": "Characters & Games",
+    "pagePartyPicsEn": "Party Pics & Testimonials",
+    "pagePricesEn": "Prices",
+    "pageContactEn": "Contact",
+    "pageFAQEn": "FAQ",
+    "nameRus": "ЖЗШСЙ ИЫШ ЕАДИС",
+    "bannerRus": "ЙПЕАЙЭЛЩВСГГЗ РЭТСЩШЪЛШТЮЭ ИОЩА",
+    "tagLineRus": "ФПЙГОМНЙБ ЗЫХРВЗЩЗЧШР",
+    "pageCharsRus": "ЭВЕЙЁОЖЕЬП & БЪАЛИ",
+    "pagePartyPicsRus": "ЦФСЭФ КУЫЙ & ОШАПОНЁГВЮЪТ",
+    "pagePricesRus": "ЦНСЬИЗ",
+    "pageContactRus": "НТЛТХЬЙ",
+    "pageFAQRus": "ИЮЛ"
+  },
+  "characters": [
+    {
+      "image": "clown.jpg",
+      "nameEn": "Clown",
+      "nameRus": "ЫЖЩЙТ"
+    },
+    {
+      "image": "fairy_butterfly.jpeg",
+      "nameEn": "Fairy/Butterfly",
+      "nameRus": "БНЫКЙЩЦЬВГЯЦШЙР"
+    },
+    {
+      "image": "elsa.png",
+      "nameEn": "Elsa",
+      "nameRus": "ЦШБЩ"
+    },
+    {
+      "image": "unicorn.jpeg",
+      "nameEn": "Unicorn",
+      "nameRus": "ЯВСПМПГ"
+    },
+    {
+      "image": "batgirl.jpeg",
+      "nameEn": "Batgirl",
+      "nameRus": "ЩГШВФЦБ"
+    },
+    {
+      "image": "pirate.jpeg",
+      "nameEn": "Pirate",
+      "nameRus": "ЯЙНЙЪК"
+    },
+    {
+      "image": "peppapig.jpeg",
+      "nameEn": "Peppa Pig",
+      "nameRus": "ЖЖЁБЁ ЗМТ"
+    },
+    {
+      "image": "snowwhite.jpg",
+      "nameEn": "Snow White",
+      "nameRus": "ЭФЭЭ УБЗПА"
+    },
+    {
+      "image": "alice_wonderland.jpg",
+      "nameEn": "Alice in Wonderland",
+      "nameRus": "ЫТШСУ ЯТ ЛКБЁБЯКИСУ"
+    },
+    {
+      "image": "troll.jpeg",
+      "nameEn": "Troll",
+      "nameRus": "УАЩЭЪ"
+    },
+    {
+      "image": "masha.jpeg",
+      "nameEn": "Masha",
+      "nameRus": "ВАЛЁВ"
+    },
+    {
+      "image": "chesirecat.jpeg",
+      "nameEn": "Chesire Cat",
+      "nameRus": "НПШНЭБШ ЖБФ"
+    }
+  ],
+  "games": [
+    {
+      "nameEn": "Circus",
+      "id": "game-circus",
+      "descriptionEn": "The clown will entertain children with a magic show, puppetry, balloon modeling, face painting, dancing, relay races, parachute games and other fun activities. Expect lots of laughter!",
+      "nameRus": "ЦЯЁЧФЖ",
+      "descriptionRus": "БПА ЩХЙФЙ ЭДЩН ЧЗЧРНЫДУР ЕЛПЮНРЯЖ ФАЮЧ Ш ОЩЗЭЩ ИНЧАК ХКГШШХУЛЕ ЧШЦШХЖЦ ДБЩЫЬУЩШФ НБИФ ВТБГРФОСЮ ЦХГГГЙЮР ШЯОЮУ МУБКГЩ ШЬТШШШШОН ЫРМЩЁ ЗИЛ ЧЗМЮХ ЪРЫ АУЩУЭЭЭЕЭЛЗ АФЬИШК ЛБУВ ЧД ПЦЧНТЯЦТЧ"
+    },
+    {
+      "nameEn": "Frozen",
+      "id": "game-frozen",
+      "descriptionEn": "Elsa will entertain the children with Frozen movie themed games and music. We will sing along and dance to Elsa's favorite song, pin the nose on Olaf, play snow ball games and see Elsa perform Snow magic. Even though she is a frozen queen, no one will get cold during all these exiting games!",
+      "nameRus": "НЮФЙСГ",
+      "descriptionRus": "КЗРМ ЭЮРМ БЩДДЪЖНОЖ ЕЗЩ ФЮЛЁГБЛК ЯЛЩЩ ПОИКБР ЫИЩЫН ЗЪЩЧИС ГЁВЮЪ БРВ БШМАЕМ ЁЫ ЦСХЬ КЬХИ ЁЬБМО ЙЪЗ ОЕЦДЙ ЭЭ ЮТЁЦЭТ БЗНБВХЪЮ ЪЬЙАС ИДГ ЙЦХ НЁЮБ ЧЪ ЧРРАД ЩЭРБ БПЯЮ МЯЭЮ ЯФУШЛ ЬНЦ ЗЯБ КВНД ЮКЕАФЁЩ КЩДР ЦЭИТПЭ ЭЦЁЭ ДЯВЦЖВ ЭЮС ЩО А ЖАРДПА ЯАМЗЫН ВЖ ТЮФ ЯЬТЯ ЕЩС ЙЭШЯ РТЕЪЗЧ ЩЛЕ РКАЧГ ССЛОЙЮВ ЛЭТЧСХ"
+    },
+    {
+      "nameEn": "Superheros",
+      "id": "game-superheros",
+      "descriptionEn": "Batgirl will train children to be superheroes through fun games like obstacle races, tug of war, learning to walk the tightrope like Robin and more. Everyone will feel like a superhero!",
+      "nameRus": "ВЭЫАЦВЙРЪН",
+      "descriptionRus": "ХОАУКАЦ РТДХ ГМДРЁ ХЗЩМЖРБД АИ БЮ ФЙТУТЖНВСЪС РШЬХЯРЮ МНМ ЫЦУСФ ЬИТО ЕЛБНОЦЩЗ ЩЁФЛШЁ ЪЬВ ОБ ПФЩП СЧКПВВИЛ ТГ РУФЧ ТХА ЖКББЁЙЮЖУ ЖЩЁБ ЬГЙЮИ ЦЛТ ФИПЪИ СФЭЗЯЬИЛ ХАМЁ ЫЛОП ВЪЮЦ Е ЯАКШЩЛТЮАА"
+    }
+  ],
+  "FAQS": [
+    {
+      "type": "generic",
+      "questionEn": "Why do we recommend booking 2 entertainers for 20 plus children?",
+      "answerEn": "If there are a lot of children it will be difficult to pay attention to each child. Two entertainers can do a better job with large groups of children. We want to make sure that each child is happy. (We have a second entertainer).",
+      "questionRus": "ЕСШ ПО ЕД ГЪНЦЦЪЩЖБ ЁЫЗМДОД 2 ТИЛУЬЁСХЮТГУ КВС 20 НЛКК ФЭШВЬГОШЬ",
+      "answerRus": "ЦЗ ВЧЬОП ЪОИ Ш ХЁН ЯЛ УЯФЕГШБМ ДЩ ЭУПЧ МЯ ЬЕЗЧЬДМВЪ ЮТ ЪНХ ЦЁСОЮЬОЁО ЦЛ ВЕИЖ ИГЖЖПБ ЁЫЪ ЛЫЦЬШПЭТРЬЙЖ УКР ЖЮ Ю ФЧДОЬП ЮЫЧ ЮЦЁЖ ШЩЦЖЯ ЛЯХУЧС РЬ НГМЮБЭУОО СШ РЪСЯ ДЫ ЫЬДБ ЛЩВЬ МАЬС ЬФЙЦ ЗИЮГВ МД КУОРЖЧ МЧА ГЭЗЕ П ВЩПЧТР ЮЪЭЖЫКЕЫЧЕЛЛЩ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do you have a DBS check and PLI?",
+      "answerEn": "Yes I do",
+      "questionRus": "НЗ БЕЫ БДЛЯ Х БХЕ АКИЙТ ШРХ ДЯЖБ",
+      "answerRus": "ЧЮГ Д МЪ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Children of what age do you work with?",
+      "answerEn": "From 1 to 15 year olds",
+      "questionRus": "ЮШПЧЬВЙЪ АД АЖЧП ЗЗГ ЛЧ АЗН НПЧХ ХКЪЪС",
+      "answerRus": "ЦЬЯЮ 1 ЭО 15 БЛЧЗ ЪЪАЕ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "What costume is best for young children?",
+      "answerEn": "For young children we recommend the Clown the Fairy costumes.",
+      "questionRus": "ЙЯЬН ЩАЬЬЧТЯ ЮЕ ЪБЪХ ЙТИ ГЭФАП ОМЛЕСЩИЧЖ",
+      "answerRus": "ИЬЯ КПЪЯЙ ЗЮПЫЧУЕЪ ВД ЫКЙЦББФХД ЁЙЖ ЖДРЖО АЗЁ ЛСЗЮЙ ЩЕРТЛХПАЮ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "How much does it cost to book a children's entertainer?",
+      "answerEn": "The price depends on the amount of children and the amount of hours you are booking the entertainer for.",
+      "questionRus": "ЧСТ ИЦЧГ ЮГУД ХХ ЦАЪЦ ГЬ ВТМЁ Щ ЭЪЙЬФГЙМОЭ ЦМЛЙБДНЬЙЕНЩ",
+      "answerRus": "ЙТК УВНИР ЖЩАЙЕШН ЗЩ ВАБ ЕЦЪЮЭШ ИВ ЁПОРМАЕЯ ЬНН ВВЮ ЛЗРУДА ФР ПЧЕНШ ЬЯВ ЖОИ ЬЕГЩМОИ КДГ ЁЭССХОЖФЫЬЗ КВУУ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do you take booking outside of London?",
+      "answerEn": "Yes. There is an extra fee for travel cost and travel time (if it is more than 1.5 hours one way).",
+      "questionRus": "ПФ ЦАШ ЙХЧЧ АЭЧЕНЧН ЦЯЁССВК ЁС РОХЛЕОЪ",
+      "answerRus": "ЙРЭЯ ЮЧЬЁЖ ЪЙ ЬБ ЬМРКЩ ДЬВ КЯИ ПГЩЙНЮ ЛСЯЙ ЬЙП ШЬЬАОН ЙМЬХ ЕЖЬ ШГ ЭЗ ЬОФЪ ТЗЮН 1Л5 ШЧЙЬЮ ДЁЯ МЧЩКЙ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do you do face painting and balloon modeling? Is it included in the price?",
+      "answerEn": "Yes. This is included in the price. Face painting takes around 5 minutes per child.",
+      "questionRus": "КШ ОВЙ ЭО ЕСТР ФЭХФЧЯУЙ ЪЮС ДЭЧЧАУВ РЬМКНТЩЗЕ ЬУ ТЬ НВЩШЦВБЭ УБ НХС ЁЧАРЫВ",
+      "answerRus": "ЙЭРО ШФЫД ГА ЗЦИЦИКЙЛ ФЛ СЖУ ТЦИСЯВ СЫФД ХДВЫЕАГЭ ХДЧШШ ШЙОРЪД 5 ЁЦЕМАЗЗ ГРЙ ЭБСЧЛГ"
+    },
+    {
+      "type": "gamesBrought",
+      "questionEn": "What games do you bring?",
+      "p1En": "The entertainer brings a suitcase full of games, including:",
+      "listEn": [
+        "magic show",
+        "puppet show",
+        "treasure hunt",
+        "musical games",
+        "relay races",
+        "arts and crafts",
+        "face painting",
+        "balloon modeling"
+      ],
+      "p2En": "You can choose which games you would like or we can choose the perfect games to suit the amount of children and what your child likes.",
+      "questionRus": "ФДЮС ППЙЪМ ЦВ ЧЫЛ ЛЧБГЖЬ",
+      "p1Rus": "ЩЯЫ КОТТЧЦЯЦЭАУ СЙШШЯЗ Х ВКПШХРИЙ ЯЕЧТ НЛ ЯЩКЕДА ЩЯЩЭУБЪАЗИ",
+      "listRus": [
+        "МБРЖЬ ЛЦБЁ",
+        "МИЧЪЛН ЛЯЯЛ",
+        "ЗМРЪГОЗЧ ПАОБ",
+        "ЖГЬМЮЬИ ЖЗЩСЙ",
+        "ЪУЗГК ЦДБАТ",
+        "ФЛЦР ИОХ ЁЗНЯЩЦ",
+        "ФББЧ ЦЮПЪЧЭУО",
+        "АЙРРПЬН ЙАДЙХОШЗ"
+      ],
+      "p2Rus": "ЛИИ ЯЙБ ГЧССХУ ЪЭЩЯЧ ЕЧВРА ЛКЛ ЭЕПАЗ МЪЧП МГ ЭД ЯФЖ РНФЖДМ ХВА ОУЯЧИЕЫ ЙЖГБЭ ЗУ ВЕЪЁ ЁИМ УЭБШТЯ ЗГ АЁУЖЮТМЭ БХО ЩЫЗЖ ЧУФИ СШПЛФ АЧЙЭУМ"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do the children get prizes?",
+      "answerEn": "Yes. The entertainer brings stickers as prizes. All the children get stickers and the birthday boy/girl are always in the center of attention.",
+      "questionRus": "ЯШ ГПЪ ЧХЮДЫТВЪ НЬА ЙСЮТШГТ",
+      "answerRus": "ЭГЯФ ВЫЖ ЪАЮЗЭЯГШЬТН ЙГУУЬГ ЦПКХГФЯП ОЛ ЖЩЪБДЯВ ЁЫА ЦХК ПЬОЙЮЗЬЗ ИНЙ ДОАБЯМАЬ КЬС ВЗЮ ЩМНБЮШИЬ МИЙЁДЛОЧ ЮКХ ЧУЗЗАЫ ХМ УЬГ ЕРЯЧЭЩ ГФ ХИЮЦХТЪБХБ"
+    }
+  ],
+  "prices": {
+    "costsEn": [
+      [
+        "1 hour",
+        "£130"
+      ],
+      [
+        "1.5 hours",
+        "£170"
+      ],
+      [
+        "2 hours",
+        "£210"
+      ],
+      [
+        "2.5 hours",
+        "£250"
+      ],
+      [
+        "3 hours",
+        "£290"
+      ],
+      [
+        "3.5 hours",
+        "£330"
+      ],
+      [
+        "4 hours",
+        "£370"
+      ]
+    ],
+    "specialOfferEn": "£10 off for returning customers and weekday customers",
+    "travelCostEn": "Travel cost beyond zone 4",
+    "travelCostsEn": [
+      [
+        "Zone 5-6",
+        "£5"
+      ],
+      [
+        "Zone 7-8",
+        "£10"
+      ],
+      [
+        "Zone 9",
+        "£15"
+      ]
+    ],
+    "outsideLondonEn": "Travel cost outside of London will depend on the ticket cost and the time it takes to get there.",
+    "specialOfferRus": "£10 НРШ ОУГ ВПКЗЩТХТЩ ЙГКРВДБОР ШЪФ ФЩОИЬЕФ ЮЩПЕЧИАПД",
+    "travelCostRus": "РБГЪШП ГФАК ЁЖКИИМ ЗЪШН 4",
+    "outsideLondonRus": "СРЯХЮП ИЗХН ЕЪРЁАХШ ГЩ ТУИРЗЁ ФНЯЕ КЗКДЖЁ ОП ЬЪГ ДЬЯВКТ ЖКДЮ ШЖЙ ЪОВ ЛЪЁХ СМ ЩГУСТ КБ ЫГУ ЮЙКМЦУ",
+    "travelCostsRus": [
+      [
+        "Zone 5-6",
+        "£5"
+      ],
+      [
+        "Zone 7-8",
+        "£10"
+      ],
+      [
+        "Zone 9",
+        "£15"
+      ]
+    ],
+    "costsRus": [
+      [
+        "1 hour",
+        "£130"
+      ],
+      [
+        "1.5 hours",
+        "£170"
+      ],
+      [
+        "2 hours",
+        "£210"
+      ],
+      [
+        "2.5 hours",
+        "£250"
+      ],
+      [
+        "3 hours",
+        "£290"
+      ],
+      [
+        "3.5 hours",
+        "£330"
+      ],
+      [
+        "4 hours",
+        "£370"
+      ]
+    ]
+  }
+}

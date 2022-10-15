@@ -26,6 +26,7 @@ FAQ = Path("templates/faq.html")
 
 # Output
 EN = Path("./en")
+RUS = Path("./rus")
 
 
 def iterate_pics(data_dict):
@@ -37,7 +38,7 @@ def iterate_pics(data_dict):
         hash = sha256(data).digest().hex()
         ext = fname.name.split('.')[1]
         name = hash + '.' + ext
-        data_dict[str(fname.parent)][fname.name] = "images/" + name
+        data_dict[str(fname.parent)][fname.name] = "../images/" + name
         yield name, data
             
 
@@ -65,25 +66,98 @@ def make_css():
     return name
 
 
+def do_english(data):
+    for faq in data['strings']['FAQS']:
+        if faq['type'] == "generic":
+            faq['question'] = faq['questionEn']
+            faq['answer'] = faq['answerEn']
+        elif faq["type"] == "gamesBrought":
+            faq["question"] = faq["questionEn"]
+            faq["p1"] = faq["p1En"]
+            faq["list"] = faq["listEn"]
+            faq["p2"] = faq["p2En"]
+
+    for char in data['strings']['characters']:
+        char['name'] = char['nameEn']
+
+    for s in list(data['strings']['site']):
+        if s.endswith("En"):
+            data['strings']['site'][s[:-2]] = data['strings']['site'][s]
+
+    prices = data['strings']['prices']
+    prices['costs'] = prices['costsEn']
+    prices['specialOffer'] = prices['specialOfferEn']
+    prices['travelCost'] = prices['travelCostEn']
+    prices['travelCosts'] = prices['travelCostsEn']
+    prices['outsideLondon'] = prices['outsideLondonEn']
+
+    games = data['strings']['games']
+    for g in games:
+        g['description'] = g['descriptionEn']
+        g['name'] = g['nameEn']
+
+
+def do_russian(data):
+    for faq in data['strings']['FAQS']:
+        if faq['type'] == "generic":
+            faq['question'] = faq['questionRus']
+            faq['answer'] = faq['answerRus']
+        elif faq["type"] == "gamesBrought":
+            faq["question"] = faq["questionRus"]
+            faq["p1"] = faq["p1Rus"]
+            faq["list"] = faq["listRus"]
+            faq["p2"] = faq["p2Rus"]
+
+    for char in data['strings']['characters']:
+        char['name'] = char['nameRus']
+
+    for s in list(data['strings']['site']):
+        if s.endswith("Rus"):
+            data['strings']['site'][s[:-3]] = data['strings']['site'][s]
+
+    prices = data['strings']['prices']
+    prices['costs'] = prices['costsRus']
+    prices['specialOffer'] = prices['specialOfferRus']
+    prices['travelCost'] = prices['travelCostRus']
+    prices['travelCosts'] = prices['travelCostsRus']
+    prices['outsideLondon'] = prices['outsideLondonRus']
+
+    games = data['strings']['games']
+    for g in games:
+        g['description'] = g['descriptionRus']
+        g['name'] = g['nameRus']
+
+
 def main():
     data = {}
-    data['strings'] = js.load(open("strings.json"))
+    data['strings'] = js.load(open("strings5.json"))
     data['images'] = {}
     make_images(data['images'])
 
     # CSS
     data['css'] = make_css()
 
+    # Images
     for char in data['strings']['characters']:
         char['image'] = data['images']['characters'][char['image']]
 
     if not EN.is_dir():
         mkdir(EN)
 
+    do_english(data)
     for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT):
         content = Template(filename=str(page)).render(**data)
         with open(EN / page.name, "w") as file:
-            file.write(HEADER.render(content=content, **data))
+            file.write(HEADER.render(content=content, prefix="/en", current_page=page.name, **data))
+
+    if not RUS.is_dir():
+        mkdir(RUS)
+
+    do_russian(data)
+    for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT):
+        content = Template(filename=str(page)).render(**data)
+        with open(RUS / page.name, "w") as file:
+            file.write(HEADER.render(content=content, prefix="/rus", current_page=page.name, **data))
 
 if __name__ == '__main__':
     main()

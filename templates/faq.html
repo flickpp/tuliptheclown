@@ -1,65 +1,21 @@
-    <div id="faq">
-      <h4>Why do we recommend booking 2 entertainers for 20 plus children?</h4>
-      <p>
-        If there are a lot of children it will be difficult to pay attention to each child.
-        Two entertainers can do a better job with large groups of children.
-        We want to make sure that each child is happy. (We have a second entertainer).
-      </p>
-      <h4>Do you have a DBS check and PLI?</h4>
-      <p>
-        Yes I do.
-      </p>
-      <h4>Children of what age do you work with?</h4>
-      <p>
-        From 1 to 15 year olds.
-      </p>
-      <h4>What costume is best for young children?</h4>
-      <p>
-        For young children we recommend the Clown the Fairy costumes.
-      </p>
-      <h4>How much does it cost to hire a children's entertainer?</h4>
-      <p>
-        The price depends on the amount of children and the amount
-        of hours you are booking the entertainer for.
-      </p>
-      <p>
-        See <a href="/packages">here</a> for price list.
-      </p>
-      <h4>Do you take booking outside of London?</h4>
-      <p>
-        Yes. There is an extra fee for travel cost and travel time (if it is more than 1.5 hours one way).
-      </p>
-      <h4>Do you do face painting and balloon modeling? Is it included in the price?</h4>
-      <p>
-       Yes. This is included in the price. Face painting takes around 5 minutes per child.
-      </p>
-      <h4>What games do you bring?</h4>
-      <p>
-       The entertainer brings a suitcase full of games, including:
-        <ul class="list">
-          <li>magic show</li>
-          <li>puppet show</li>
-          <li>treasure hunt</li>
-          <li>musical games</li>
-          <li>relay races</li>
-          <li>arts and crafts</li>
-          <li>face painting</li>
-          <li>balloon modeling</li>
-        </ul>
-      </p>
-      <p>
-        You can choose which games you would like or we can choose the perfect games
-        to suit the amount of children and what your child likes.
-      </p>
-      <p>
-        We also have themed games. You can view the games <a href="/">here</a>.
-      </p>
-      <h4>Do the children get prizes?</h4>
-      <p>
-        Yes. The entertainer brings stickers as prizes.
-        All the children get stickers and the birthday boy/girl are always in the center of attention.
-      </p>
-    </div>
-    <div class="footer">
-      <h3>Tulip the Clown - FAQ</h3>
-    </div>
+<div id="faq">
+% for faq in strings['FAQS']:
+% if faq['type'] == 'generic':
+  <h4>${faq['question']}</h4>
+<p>${faq['answer']}
+  % elif faq['type'] == 'gamesBrought':
+  <h4> ${faq['question']}</h4>
+<p>${faq['p1']}
+  <ul class="list">
+    % for li in faq['list']:
+    <li>${li}</li>
+    % endfor
+  </ul>
+</p>
+<p>${faq['p2']}</p>
+% endif
+% endfor
+</div>
+<div class="footer">
+  <h3>${strings['site']['name']} - ${strings['site']['pageFAQ']}</h3>
+</div>

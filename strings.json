@@ -1,4 +1,14 @@
 {
+    "site": {
+	"nameEn": "Tulip the Clown",
+	"bannerEn": "Professional, Experienced, Fun!",
+	"tagLineEn": "Childrens Entertainer",
+	"pageCharsEn": "Characters & Games",
+	"pagePartyPicsEn": "Party Pics & Testimonials",
+	"pagePricesEn": "Prices",
+	"pageContactEn": "Contact",
+	"pageFAQEn": "FAQ"
+    },
     "characters": [
 	{
 	    "image": "clown.jpg",
@@ -48,5 +58,99 @@
 	    "image": "chesirecat.jpeg",
 	    "nameEn": "Chesire Cat"
 	}
-    ]
+    ],
+    "games": [
+	{
+	    "nameEn": "Circus",
+	    "id": "game-circus",
+	    "descriptionEn": "The clown will entertain children with a magic show, puppetry, balloon modeling, face painting, dancing, relay races, parachute games and other fun activities. Expect lots of laughter!"
+	},
+	{
+	    "nameEn": "Frozen",
+	    "id": "game-frozen",
+	    "descriptionEn": "Elsa will entertain the children with Frozen movie themed games and music. We will sing along and dance to Elsa's favorite song, pin the nose on Olaf, play snow ball games and see Elsa perform Snow magic. Even though she is a frozen queen, no one will get cold during all these exiting games!"
+	},
+	{
+	    "nameEn": "Superheros",
+	    "id": "game-superheros",
+	    "descriptionEn": "Batgirl will train children to be superheroes through fun games like obstacle races, tug of war, learning to walk the tightrope like Robin and more. Everyone will feel like a superhero!"
+	}
+    ],
+    "FAQS": [
+	{
+	    "type": "generic",
+	    "questionEn": "Why do we recommend booking 2 entertainers for 20 plus children?",
+	    "answerEn": "If there are a lot of children it will be difficult to pay attention to each child. Two entertainers can do a better job with large groups of children. We want to make sure that each child is happy. (We have a second entertainer)."
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "Do you have a DBS check and PLI?",
+	    "answerEn": "Yes I do"
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "Children of what age do you work with?",
+	    "answerEn": "From 1 to 15 year olds"
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "What costume is best for young children?",
+	    "answerEn": "For young children we recommend the Clown the Fairy costumes."
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "How much does it cost to book a children's entertainer?",
+	    "answerEn": "The price depends on the amount of children and the amount of hours you are booking the entertainer for."
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "Do you take booking outside of London?",
+	    "answerEn": "Yes. There is an extra fee for travel cost and travel time (if it is more than 1.5 hours one way)."
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "Do you do face painting and balloon modeling? Is it included in the price?",
+	    "answerEn": "Yes. This is included in the price. Face painting takes around 5 minutes per child."
+	},
+	{
+	    "type": "gamesBrought",
+	    "questionEn": "What games do you bring?",
+	    "p1En": "The entertainer brings a suitcase full of games, including:",
+	    "listEn": [
+		"magic show",
+		"puppet show",
+		"treasure hunt",
+		"musical games",
+		"relay races",
+		"arts and crafts",
+		"face painting",
+		"balloon modeling"
+	    ],
+	    "p2En": "You can choose which games you would like or we can choose the perfect games to suit the amount of children and what your child likes."
+	},
+	{
+	    "type": "generic",
+	    "questionEn": "Do the children get prizes?",
+	    "answerEn": "Yes. The entertainer brings stickers as prizes. All the children get stickers and the birthday boy/girl are always in the center of attention."
+	}
+    ],
+    "prices": {
+	"costsEn": [
+	    ["1 hour", "£130"],
+	    ["1.5 hours", "£170"],
+	    ["2 hours", "£210"],
+	    ["2.5 hours", "£250"],
+	    ["3 hours", "£290"],
+	    ["3.5 hours", "£330"],
+	    ["4 hours", "£370"]
+	],
+	"specialOfferEn": "£10 off for returning customers and weekday customers",
+	"travelCostEn": "Travel cost beyond zone 4",
+	"travelCostsEn": [
+	    ["Zone 5-6", "£5"],
+	    ["Zone 7-8", "£10"],
+	    ["Zone 9", "£15"]
+	],
+	"outsideLondonEn": "Travel cost outside of London will depend on the ticket cost and the time it takes to get there."
+    }
 }
