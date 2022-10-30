@@ -1,3 +1,17 @@
+<div id="reviews">
+  <script>
+    const reviews = document.getElementById('reviews')
+    const req = new Request("https://api.jameswelchman.com/tuliptheclown/reviews", {
+	method: "GET",
+	credentials: "include"
+    })
+
+    fetch(req)
+    .then(resp => resp.text())
+    .then(text => reviews.innerHTML = text)
+  </script>
+</div>
+
 <div class="footer">
   <h3>${strings['site']['name']} - ${strings['site']['pagePartyPics']}</h3>
 </div>

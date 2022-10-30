@@ -544,3 +544,41 @@ nav li:hover {
 #contact-button:hover {
     background: #3f2d7b;
 }
+
+/* reviews */
+#reviews {
+    min-height: 100vh;
+}
+
+.review {
+    color: #ffffff;
+}
+
+.review h3 {
+    font-size: 1.5rem;
+    padding: 0.8rem 1rem;
+}
+
+.review p {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.review1 {
+    background-color: #EA8;
+}
+
+.review2 {
+    background-color: #C5B4E3;
+}
+
+.review3 {
+    background-color: #00B0BD;
+}
+
+.review-time {
+    text-decoration: italic;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
