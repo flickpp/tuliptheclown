@@ -1,0 +1,288 @@
+{
+  "site": {
+    "nameEn": "Tulip the Clown",
+    "bannerEn": "Professional, Experienced, Fun!",
+    "tagLineEn": "Childrens Entertainer",
+    "pageCharsEn": "Characters & Games",
+    "pagePartyPicsEn": "Party Pics & Testimonials",
+    "pagePricesEn": "Prices",
+    "pageContactEn": "Contact",
+    "pageFAQEn": "FAQ",
+    "nameRus": "Клоун Тюльпанчик",
+    "bannerRus": "Профессиональный, опытный и веселый аниматор!",
+    "tagLineRus": "детский аниматор",
+    "pageCharsRus": "Костюмы и Игры",
+    "pagePartyPicsRus": "Фотографии и отзывы",
+    "pagePricesRus": "Цены",
+    "pageContactRus": "Связаться",
+    "pageFAQRus": "Часто Задаваемые Вопросы"
+  },
+  "characters": [
+    {
+      "image": "clown.jpg",
+      "nameEn": "Clown",
+      "nameRus": "Клоун"
+    },
+    {
+      "image": "fairy_butterfly.jpeg",
+      "nameEn": "Fairy/Butterfly",
+      "nameRus": "Фея/ Бабочка"
+    },
+    {
+      "image": "elsa.png",
+      "nameEn": "Elsa",
+      "nameRus": "Эльза"
+    },
+    {
+      "image": "unicorn.jpeg",
+      "nameEn": "Unicorn",
+      "nameRus": "Единорог"
+    },
+    {
+      "image": "batgirl.jpeg",
+      "nameEn": "Batgirl",
+      "nameRus": "Бэтгёрл"
+    },
+    {
+      "image": "pirate.jpeg",
+      "nameEn": "Pirate",
+      "nameRus": "Пират"
+    },
+    {
+      "image": "peppapig.jpeg",
+      "nameEn": "Peppa Pig",
+      "nameRus": "Пеппа Пиг"
+    },
+    {
+      "image": "snowwhite.jpg",
+      "nameEn": "Snow White",
+      "nameRus": "Белоснежка"
+    },
+    {
+      "image": "alice_wonderland.jpg",
+      "nameEn": "Alice in Wonderland",
+      "nameRus": "Алиса в Стране Чудес"
+    },
+    {
+      "image": "troll.jpeg",
+      "nameEn": "Troll",
+      "nameRus": "Троль"
+    },
+    {
+      "image": "masha.jpeg",
+      "nameEn": "Masha",
+      "nameRus": "Маша"
+    },
+    {
+      "image": "chesirecat.jpeg",
+      "nameEn": "Chesire Cat",
+      "nameRus": "Чеширский Кот"
+    }
+  ],
+  "games": [
+    {
+      "nameEn": "Circus",
+      "id": "game-circus",
+      "descriptionEn": "The clown will entertain children with a magic show, puppetry, balloon modeling, face painting, dancing, relay races, parachute games and other fun activities. Expect lots of laughter!",
+      "nameRus": "Цирк",
+      "descriptionRus": "Клоун будет развлекать детей волшебством, кукольным театром, моделированием из воздушных шариков, аквагримом, танцами, гонками, играми с парашютом и другими веселыми занятиями. ожидайте много смеха!"
+    },
+    {
+      "nameEn": "Frozen",
+      "id": "game-frozen",
+      "descriptionEn": "Elsa will entertain the children with Frozen movie themed games and music. We will sing along and dance to Elsa's favorite song, pin the nose on Olaf, play snow ball games and see Elsa perform Snow magic. Even though she is a frozen queen, no one will get cold during all these exiting games!",
+      "nameRus": "Замороженное Сердце",
+      "descriptionRus": "Эльза будет развлекать детей играми и музыкой по тематике мультфильма. мы будем петь и танцевать под любимую песню Эльзы, наклеивать нос Олафу, играть в снежки и смотреть снежную магию Эльзы. Несмотря на то, что она Замороженная Королева, никто не замёрзнет во время всех этих веселых игр!"
+    },
+    {
+      "nameEn": "Superheros",
+      "id": "game-superheros",
+      "descriptionEn": "Batgirl will train children to be superheroes through fun games like obstacle races, tug of war, learning to walk the tightrope like Robin and more. Everyone will feel like a superhero!",
+      "nameRus": "Супергерои",
+      "descriptionRus": "Бэтгёрл будет тренировать детей быть супергероями через веселые игры, такие как Пройти Препятствия, перетягивание каната, учиться ходить по канату как Робин и многое другое. Все почувствуют себя супергероем!"
+    }
+  ],
+  "FAQS": [
+    {
+      "type": "generic",
+      "questionEn": "Why do we recommend booking 2 entertainers for 20 plus children?",
+      "answerEn": "If there are a lot of children it will be difficult to pay attention to each child. Two entertainers can do a better job with large groups of children. We want to make sure that each child is happy. (We have a second entertainer).",
+      "questionRus": "Почему мы рекомендуем заказывать двух аниматоров, когда более 20ти детей?",
+      "answerRus": "Когда много детей, трудно уделить каждому внимание. Два аниматора смогут лучше провести праздник с большой группой. Мы хотим, чтобы каждый ребёнок остался доволен праздником. (Второй аниматор есть)"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do you have a DBS check and PLI?",
+      "answerEn": "Yes I do",
+      "questionRus": "Есть ли у вас DBS  и PLI (страховка)?",
+      "answerRus": "Да"
+    },
+    {
+      "type": "generic",
+      "questionEn": "What age groups do you work with?",
+      "answerEn": "From 1 to 15 year olds",
+      "questionRus": "С детьми какого возраста вы работаете?",
+      "answerRus": "От 1го года до 15ти лет"
+    },
+    {
+      "type": "generic",
+      "questionEn": "What costume is best for toddlers?",
+      "answerEn": "For toddlers we recommend the Clown and the Fairy costumes.",
+      "questionRus": "Какой костюм лучше для малышей?",
+      "answerRus": "Для малышей мы рекомендуем костюм Клоуна или Феи"
+    },
+    {
+      "type": "generic",
+      "questionEn": "How much does it cost to book a children's entertainer?",
+      "answerEn": "The price depends on the amount of hours you are booking the entertainer for and the tube zone the party is in.",
+      "questionRus": "Сколько стоит заказать аниматора?",
+      "answerRus": "Стоимость зависит от количества часов и зоны метро."
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do you take bookings outside of London?",
+      "answerEn": "Yes. There is an extra fee for travel cost and travel time (if it is more than 1.5 hours one way).",
+      "questionRus": "Берёте ли вы заказы за Лондоном?",
+      "answerRus": "Да. К цене добавляется за стоимость проезда и время (если более 1,5 часов в одну сторону)."
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do you do face painting and balloon modeling? Is it included in the price?",
+      "answerEn": "Yes. This is included in the price. Face painting takes around 5-10 minutes per child.",
+      "questionRus": "Делаете ли вы аквагрим и моделирование из воздушных шариков? Включено ли это в стоимость?",
+      "answerRus": "Да, аквагрим и шарики включены в стоимость. Аквагрим занимает 5-10 минут на ребёнка."
+    },
+    {
+      "type": "gamesBrought",
+      "questionEn": "What games do you bring?",
+      "p1En": "The entertainer brings a suitcase full of games, including:",
+      "listEn": [
+        "magic show",
+        "puppet show",
+        "treasure hunt",
+        "musical games",
+        "relay races",
+        "arts and crafts",
+        "face painting",
+        "balloon modeling"
+      ],
+      "p2En": "You can choose which games you would like or we can choose the perfect games to suit the amount of children and what your child likes.",
+      "questionRus": "Какие игры приносит аниматор?",
+      "p1Rus": "Аниматор приносит чемодан с играми, которые включают:",
+      "listRus": [
+        "Волшебство",
+        "Кукольный театр",
+        "Поиск сокровищ",
+        "Музыкальные игры",
+        "Гонки",
+        "Рисование и поделки",
+        "Аквагрим",
+        "Моделирование из воздушных шариков"
+      ],
+      "p2Rus": "Вы можете выбрать какие игры вам нравятся или мы можем подобрать игры под возраст и интересы детей"
+    },
+    {
+      "type": "generic",
+      "questionEn": "Do the children get prizes?",
+      "answerEn": "Yes. The entertainer brings stickers as prizes. All the children get stickers and the birthday boy/girl are always in the center of attention.",
+      "questionRus": "Получают ли дети призы?",
+      "answerRus": "Да, аниматор приносит наклейки, как призы. Все дети получают наклейки и именинник/ца всегда в центре внимания."
+    }
+  ],
+  "prices": {
+    "costsEn": [
+      [
+        "1 hour",
+        "£130"
+      ],
+      [
+        "1.5 hours",
+        "£170"
+      ],
+      [
+        "2 hours",
+        "£210"
+      ],
+      [
+        "2.5 hours",
+        "£250"
+      ],
+      [
+        "3 hours",
+        "£290"
+      ],
+      [
+        "3.5 hours",
+        "£330"
+      ],
+      [
+        "4 hours",
+        "£370"
+      ]
+    ],
+    "specialOfferEn": "£10 off for returning customers and weekday customers",
+    "travelCostEn": "Travel cost beyond zone 4",
+    "travelCostsEn": [
+      [
+        "Zone 5-6",
+        "£5"
+      ],
+      [
+        "Zone 7-8",
+        "£10"
+      ],
+      [
+        "Zone 9",
+        "£15"
+      ]
+    ],
+    "outsideLondonEn": "Travel cost outside of London will depend on the ticket cost and the time it takes to get there.",
+    "specialOfferRus": "Скидка £10 по будним дням и для возвращающихся клиентов",
+    "travelCostRus": "Стоимость проезда далее 4ой зоны метро",
+    "travelCostsRus": [
+      [
+        "5-6 зоны",
+        "£5"
+      ],
+      [
+        "7-8 зоны",
+        "£10"
+      ],
+      [
+        "9 зона",
+        "£15"
+      ]
+    ],
+    "costsRus": [
+      [
+        "1 час",
+        "£130"
+      ],
+      [
+        "1.5 часа",
+        "£170"
+      ],
+      [
+        "2 часа",
+        "£210"
+      ],
+      [
+        "2.5 часа",
+        "£250"
+      ],
+      [
+        "3 часа",
+        "£290"
+      ],
+      [
+        "3.5 часа",
+        "£330"
+      ],
+      [
+        "4 часа",
+        "£370"
+      ]
+    ],
+      "outsideLondonRus": "Travel cost outside of London will depend on the ticket cost and the time it takes to get there."
+  }
+}

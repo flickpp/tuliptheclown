@@ -130,7 +130,7 @@ def do_russian(data):
 
 def main():
     data = {}
-    data['strings'] = js.load(open("strings5.json"))
+    data['strings'] = js.load(open("strings6.json"))
     data['images'] = {}
     make_images(data['images'])
 
@@ -158,6 +158,7 @@ def main():
         content = Template(filename=str(page)).render(**data)
         with open(RUS / page.name, "w") as file:
             file.write(HEADER.render(content=content, prefix="/rus", current_page=page.name, **data))
+
 
 if __name__ == '__main__':
     main()
