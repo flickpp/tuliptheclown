@@ -582,3 +582,26 @@ nav li:hover {
     font-size: 0.9rem;
     color: #ffffff;
 }
+
+/* event */
+#event {
+    background-color: #ff7488;
+    min-height: 75vh;
+}
+
+#event h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0.8rem 1rem;
+    padding-bottom: 0.1rem;
+}
+
+#event-time {
+    color: #ffffff;
+    padding-left: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+#event-description {
+    padding-left: 0.8rem;
+}

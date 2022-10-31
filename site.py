@@ -23,6 +23,7 @@ CHARS_AND_GAMES = Path("templates/characters_and_games.html")
 PICS_AND_TESTI = Path("templates/partypics_and_testimonials.html")
 CONTACT = Path("templates/contact.html")
 FAQ = Path("templates/faq.html")
+EVENT = Path("templates/event.html")
 
 # Output
 EN = Path("./en")
@@ -145,7 +146,7 @@ def main():
         mkdir(EN)
 
     do_english(data)
-    for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT):
+    for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT, EVENT):
         content = Template(filename=str(page)).render(**data)
         with open(EN / page.name, "w") as file:
             file.write(HEADER.render(content=content, prefix="/en", current_page=page.name, **data))
@@ -154,7 +155,7 @@ def main():
         mkdir(RUS)
 
     do_russian(data)
-    for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT):
+    for page in (INDEX, FAQ, PRICES, CHARS_AND_GAMES, PICS_AND_TESTI, CONTACT, EVENT):
         content = Template(filename=str(page)).render(**data)
         with open(RUS / page.name, "w") as file:
             file.write(HEADER.render(content=content, prefix="/rus", current_page=page.name, **data))

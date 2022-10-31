@@ -8,6 +8,7 @@
     "pagePricesEn": "Prices",
     "pageContactEn": "Contact",
     "pageFAQEn": "FAQ",
+    "pageEventEn": "Event",
     "nameRus": "Клоун Тюльпанчик",
     "bannerRus": "Профессиональный, опытный и веселый аниматор!",
     "tagLineRus": "детский аниматор",
@@ -15,7 +16,8 @@
     "pagePartyPicsRus": "Фотографии и отзывы",
     "pagePricesRus": "Цены",
     "pageContactRus": "Связаться",
-    "pageFAQRus": "Часто Задаваемые Вопросы"
+    "pageFAQRus": "Часто Задаваемые Вопросы",
+    "pageEventRus": "Event"
   },
   "characters": [
     {
