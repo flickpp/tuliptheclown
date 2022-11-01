@@ -12,7 +12,7 @@
     const event_id = new URL(window.location.href).searchParams.get('event_id')
     if (event_id !== null) {
 
-	const url = "http://localhost:8080/tuliptheclown/event?event_id=" + event_id
+	const url = "https://api.jameswelchman.com/tuliptheclown/event?event_id=" + event_id
 	const req = new Request(url, {
 	    credentials: "include"
 	})
