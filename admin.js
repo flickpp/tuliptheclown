@@ -326,7 +326,7 @@ function eventsHandler() {
 events.onclick = eventsHandler
 
 function messagesHandler() {
-    const req = new Request(API_URL + "/tuliptheclown/message", {
+    const req = new Request(API_URL + "/tuliptheclown/messages", {
 	credentials: "include"
     })
 
