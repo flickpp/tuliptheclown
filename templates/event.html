@@ -1,30 +1,31 @@
 <div id="event">
-  <h3>Event</h3>
+
+  <h3>Party</h3>
   <p id="event-time"></p>
 
   <p id="event-description"></p>
 
-  <script>
-    const event = document.getElementById('event')
-    const eventTime = document.getElementById('event-time')
-    const description = document.getElementById('event-description')
+  <div id="event__money">
+    <h4>Payment</h4>
+    <div class="event__payment">
+      <p>Deposit: </p>
+      <p id="event-deposit">
+    </div>
+    <div class="event__payment">
+      <p>Total (including Deposit): </p>
+      <p id="event-total-price"></p>
+    </div>
+  </div>
 
-    const event_id = new URL(window.location.href).searchParams.get('event_id')
-    if (event_id !== null) {
+  <div id="event__review">
+    <h4>Review</h4>
+    <p>Leave Nia a review for her website!</p>
+    <textarea placeholder="review" id="event-review"></textarea>
+    <button id="event-review-button">Save</button>
+  </div>
 
-	const url = "https://api.jameswelchman.com/tuliptheclown/event?event_id=" + event_id
-	const req = new Request(url, {
-	    credentials: "include"
-	})
+  <script src="../event.js" defer></script>
 
-	fetch(req)
-	    .then(resp => resp.json())
-	    .then(body => {
-		eventTime.innerHTML = body['date'] + " " + body['startTime'] + ' - ' + body['endTime']
-		description.innerHTML = body['description']
-	    })
-    }
-  </script>
 </div>
 
 <div class="footer">

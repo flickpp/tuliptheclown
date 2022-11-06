@@ -600,23 +600,95 @@ nav li:hover {
 
 /* event */
 #event {
-    background-color: #ff7488;
+    background-color: #dddddd;
     min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
 }
 
-#event h3 {
-    color: #ffffff;
+#event > h3 {
+    color: #3f2d7b;
     font-size: 1.5rem;
     padding: 0.8rem 1rem;
     padding-bottom: 0.1rem;
 }
 
+#event h4 {
+    color: #3f2d7b;
+    font-size: 1.2rem;
+    padding: 0.6rem 0.8rem;
+}
+
 #event-time {
-    color: #ffffff;
+    color: #666666;
     padding-left: 0.8rem;
     padding-bottom: 1rem;
 }
 
 #event-description {
-    padding-left: 0.8rem;
+    color: #1c1b1b;
+    outline: none;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+    min-height: 5em;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+#event__money {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.event__payment {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    color: #1c1b1b;
+}
+
+#event__review {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+#event__review > p {
+    margin-bottom: 0.5em;
+}
+
+#event__review > textarea {
+    border-radius: 15px;
+    outline: solid 1px #3f2b7d;
+    text-decoration: none;
+    color: #1c1b1b;
+    background-color: #ddddee;
+    padding: 1em;
+    font-size: 1rem;
+    font-family: 'Roboto';
+    height: 7em;
+}
+
+#event__review > textarea:focus {
+    outline: solid 1px #666677;
+}
+
+#event__review > button {
+    outline: none;
+    background-color: #3f2b7d;
+    color: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
+    border-radius: 10px;
+    align-self: flex-end;
+    padding: 1em;
+    padding-right: 2rem;
+    margin-top: 1rem;
+}
+
+#event__review > button:hover {
+    background-color: #e83a8e;
 }
