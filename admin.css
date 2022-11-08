@@ -2,8 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
+#admin-navbar {
+    position: sticky;
+    top: 0;
+}
 
 .navbar {
     display: flex;
@@ -12,8 +17,6 @@
     background-color: #333;
     color: #ffffff;
     width: 100%;
-    position: sticky;
-    top: 0;
     flex-wrap: wrap;
 }
 
@@ -45,6 +48,102 @@
     color: yellow;
 }
 
+.flex-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flex-page > p {
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+.labelled-input {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding-left: 1em;
+}
+
+.labelled-input > p {
+    font-size: 1.2rem;
+    align-self: center;
+}
+
+textarea {
+    min-height: 7em;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: Roboto;
+}
+
+textarea {
+}
+
+.row-odd {
+    color: orange;
+}
+
+.row-even {
+    color: #ffffff;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.line p {
+    font-size: 1.2rem;
+    align-self: center;
+}
+
+.button {
+    background-color: yellow;
+    font-size: inherit;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    outline: 1px solid #666655;    
+}
+
+.button-not-ready {
+    background-color: #666666;
+    font-size: inherit;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    opacity: 0.7;
+}
+
+input[type="number"] {
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    width: 5em;
+}
+
+#admin {
+    min-height: 100vh;
+    background-color: #666666;
+}
+
 #admin h3 {
     padding: 1.5rem;
     text-align: center;
@@ -52,23 +151,29 @@
     text-decoration: none;
 }
 
-/* events */
-#events {
-    display: flex;
-    flex-direction: column;
-}
-
-.events__line {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.events__line p {
+#admin h5 {
+    padding: 1.0rem;
+    text-align: left;
     font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* events */
+
+.events__copylink {
+    background-color: yellow;
+    color: #1c1b1b;
+    outline: solid 1px #666655;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.events__copylink:hover {
+    background-color: orange;
+}
+
+.events__new-event-button:hover {
+    background-color: orange;
 }
 
 .events__new-event {
@@ -80,94 +185,6 @@
     gap: 0.8rem;
 }
 
-.events__labeled-input {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    width: 100%;
-    justify-content: align-items;
-}
-
-.events__new-event input {
-    font-family: inherit;
-    font-weight: 800;
-    font-size: 12px;
-    border: 0;
-}
-
-.events__new-event-button-not-ready {
-    outline: solid 1px black;
-}
-
-.events__new-event-button-ready {
-    outline: solid 1px red;
-}
-
-.events__new-event input::placeholder {
-    color: green;
-}
-
-.events__new-event input:focus::placeholder {
-    color: #333;
-    border: solid 1px green;
-}
-
 /* messages */
-#messages {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-
-.messages__line {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.messages__line h5 {
-    font-size: 1.2rem;
-}
-
-.messages__line p {
-    font-size: 0.9rem;
-    align-self: flex-end;
-}
-
-.messages__line-odd {
-    background-color: #ffffff;
-    color: #333;
-}
-
-.messages__line-even {
-    background-color: #333;
-    color: #ffffff;
-}
-
-.messages__message {
-    
-}
 
 /* reviews */
-#reviews {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-
-.reviews__line {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.reviews__line-odd {
-    background-color: #333;
-    color: #ffffff;
-}

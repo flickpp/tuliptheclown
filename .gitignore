@@ -1,1 +1,11 @@
 __pycache__
+
+# Templating Folders
+en/
+rus/
+
+# Old CSS
+style_*.css
+
+# image hashes
+images/

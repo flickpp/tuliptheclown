@@ -286,5 +286,8 @@
       ]
     ],
       "outsideLondonRus": "Travel cost outside of London will depend on the ticket cost and the time it takes to get there."
-  }
+  },
+    "event": {
+	
+    }
 }
