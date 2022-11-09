@@ -1,5 +1,5 @@
-const API_URL = "http://localhost:8080"
-// const API_URL = "https://api.tuliptheclown.co.uk"
+// const API_URL = "http://localhost:8080"
+const API_URL = "https://api.tuliptheclown.co.uk"
 
 const contact = document.getElementById('contact')
 
