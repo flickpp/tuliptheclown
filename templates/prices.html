@@ -1,3 +1,30 @@
+<div class="page">
+  <div class="page-content">
+    <center><h1>${strings['site']['pagePrices']}</h1></center>
+    <div class="prices__table">
+    % for cost in strings['prices']['costs']:
+      <div class="prices__column">
+        <h4>${cost[0]}</h4>
+        <p>${cost[1]}</p>
+      </div>
+    % endfor
+    </div>
+    <p>${strings['prices']['specialOffer']}</p>
+
+    <h4>Travel</h4>
+    <div class="prices__table">
+    % for cost in strings['prices']['travelCosts']:
+      <div class="prices__column">
+        <h4>${cost[0]}</h3>
+        <p>${cost[1]}</p>
+      </div>
+    % endfor
+    </div>
+    <p>${strings['prices']['outsideLondon']}</p>
+  </div>
+</div>
+
+<!--
 <div id="prices">
   <div id="prices-table">
     % for cost in strings['prices']['costs']:
@@ -21,6 +48,7 @@
     <p>${strings['prices']['outsideLondon']}</p>
   </div>
 </div>
+-->
   
 <div class="footer">
   <h3>${strings['site']['name']} - ${strings['site']['pagePrices']}</h3>

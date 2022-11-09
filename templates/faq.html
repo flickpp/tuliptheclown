@@ -1,3 +1,30 @@
+<div class="page">
+  <div class="page-content">
+    <center><h1>${strings['site']['pageFAQ']}</h1></center>
+  % for faq in strings['FAQS']:
+    % if faq['type'] == 'generic':
+      <div class="faq__single">
+        <h3>${faq['question']}</h3>
+        <p>${faq['answer']}</p>
+      </div>
+    %elif faq['type'] == 'gamesBrought':
+      <div class="faq__single">
+        <h3>${faq['question']}</h3>
+        <p>${faq['p1']}
+          <ul class="faq__list">
+          % for li in faq['list']:
+            <li>${li}</li>
+          % endfor
+          </ul>
+        </p>
+        <p>${faq['p2']}</p>
+      </div>
+    % endif
+  %endfor
+  </div>
+</div>
+
+<!--
 <div id="faq">
 % for faq in strings['FAQS']:
 % if faq['type'] == 'generic':
@@ -16,6 +43,9 @@
 % endif
 % endfor
 </div>
+-->
+
+
 <div class="footer">
   <h3>${strings['site']['name']} - ${strings['site']['pageFAQ']}</h3>
 </div>

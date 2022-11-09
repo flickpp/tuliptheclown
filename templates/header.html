@@ -4,25 +4,85 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${strings['site']['name']}</title>
-    <link rel="stylesheet" href="../${css}">
+    <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/png" href="${images['flags']['rainbow.png']}" id="favicon"/>
-    <script defer src="../nav.js"></script>
-    <script async src="../background.js"></script>
+    <script src="../nav.js" defer></script>
+    <script src="../background.js" async></script>
   </head>
   <body>
     <div id="banner">
-      <a href="../en/${current_page}"><img src="${images['flags']['UK.png']}"></a>
-      <a href="../rus/${current_page}"><img src="${images['flags']['RUS.jpg']}"></a>
-      <p>${strings['site']['banner']}</p>
+    % if prefix == '/en':
+    <a href="../rus/${current_page}">
+      <p class="banner__other-lang">РУС</p>
+      <p class='banner__current-lang'>ENG</p>
+    </a>
+    % elif prefix == '/rus':
+    <a href="../en/${current_page}">
+      <p class='banner__other-lang'>ENG</p>
+      <p class="banner__current-lang">РУС</p>
+    </a>
+    % endif
+      <div id="banner__banner-text">
+        <p>${strings['site']['banner']}</p>
+      </div>
     </div>
 
     <div id="menu-navbar">
       <div id="control-bar">
+        <div id="control-bar-contents">
+          <button id="menu-button">
+            <img src="${images['flags']['menu.png']}" id="control-bar__navicon">
+          </button>
+          <div id="heading">
+            <h1>
+              <a href="${prefix}/index.html">
+                <div class="rainbow__red">T</div>
+                <div class="rainbow__yellow">U</div>
+                <div class="rainbow__green">L</div>
+                <div class="rainbow__blue">I</div>
+                <div class="rainbow__orange">P</div>
+              </a>
+            </h1>
+            <h3>${strings['site']['tagLine']}</h3>
+          </div>
+          <img src="${images['flags']['rainbow.png']}">
+        </div>
+      </div>
+      <nav id="navbar" class="nav-is-closed">
+        <ul>
+          <li><a href="${prefix}/characters_and_games.html">
+              <h4>${strings['site']['pageChars']}</h4>
+          </a></li>
+          <li><a href="${prefix}/partypics_and_testimonials.html">
+              <h4>${strings['site']['pagePartyPics']}</h4>
+          </a></li>
+          <li><a href="${prefix}/prices.html">
+              <h4>${strings['site']['pagePrices']}</h4>
+          </a></li>
+          <li><a href="${prefix}/contact.html">
+              <h4>${strings['site']['pageContact']}</h4>
+          </a></li>
+          <li><a href="${prefix}/faq.html">
+              <h4>${strings['site']['pageFAQ']}</h4>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--
+    <div id="menu-navbar">
+      <div id="control-bar">
         <button id="menu-button">
-	  <img src="${images['flags']['menu.png']}" id="menu-icon">
+	        <img src="${images['flags']['menu.png']}" id="menu-icon">
         </button>
         <div id="heading">
-          <h1><a href="${prefix}/index.html">${strings['site']['name']}</a></h1>
+          <h1><a href="${prefix}/index.html">
+              <div class="heading__red">T</div>
+              <div class="heading__purple">U</div>
+              <div class="heading__pink">L</div>
+              <div class="heading__blue">I</div>
+              <div class="heading__orange">P</div>
+          </a></h1>
           <h3>${strings['site']['tagLine']}</h3>
         </div>
 	<img src="${images['flags']['rainbow.png']}">
@@ -37,6 +97,7 @@
         </ul>
       </nav>
     </div>
+    -->
     ${content}
   </body>
 </html>
